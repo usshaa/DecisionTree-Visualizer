@@ -1,6 +1,3 @@
-Here's a `README.md` and `.gitignore` file for your Decision Tree Visualizer project:
-
-**README.md**
 # Decision Tree Visualizer 🌳
 
 An interactive educational tool for understanding decision tree algorithms through step-by-step visualization.
