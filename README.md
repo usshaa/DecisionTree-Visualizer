@@ -52,10 +52,6 @@ Key functionalities:
 - scikit-learn
 - Graphviz
 
-## License 📄
-MIT License
-```
-
 **requirements.txt**
 ```
 streamlit>=1.28.0
