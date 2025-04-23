@@ -54,74 +54,13 @@ Key functionalities:
 
 **requirements.txt**
 ```
-streamlit>=1.28.0
-pandas>=1.5.0
-numpy>=1.22.0
-matplotlib>=3.6.0
-scikit-learn>=1.2.0
-graphviz>=0.20.0
-python-dotenv>=0.19.0
+numpy
+pandas
+matplotlib
+networkx
+graphviz
+streamlit
+streamlit_lottie
+altair
+IPython
 ```
-
-**.gitignore**
-```
-# Virtual environment
-venv/
-.env
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# IDE files
-.vscode/
-.idea/
-
-# Logs and databases
-*.log
-*.sqlite
-
-# Local development
-*.local
-.DS_Store
-
-# Streamlit temporary files
-.streamlit/
-
-# Visualization outputs
-decision_tree_visualization.png
-decision_tree_final.png
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-
-# Jupyter notebooks
-*.ipynb_checkpoints
-
-# Test files
-test/
-tests/
-
-# Dataset files
-*.csv
-*.data
-*.json
-```
-
-This setup provides:
-1. Clear documentation in README.md
-2. Complete dependency list
-3. Comprehensive .gitignore for Python/Streamlit projects
-4. Standard project structure
-
-The .gitignore file excludes:
-- Development environment files
-- Cache and temporary files
-- Sensitive credentials
-- Large binary files
-- IDE-specific configurations
-- Local configuration files
-
-You can customize these files further based on your specific needs and add screenshots to the README for better visual demonstration.
