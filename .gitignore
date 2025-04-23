@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and databases
+.log
+.sqlite
+
+# Local development
+.local
+.DS_Store
+
+# Streamlit temporary files
+.streamlit/
+
+# Visualization outputs
+decision_tree_visualization.png
+decision_tree_final.png
+
+# Build artifacts
+dist/
+build/
+.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Test files
+test/
+tests/
+
+# Dataset files
+.csv
+.data
+.json
