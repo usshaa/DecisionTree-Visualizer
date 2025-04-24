@@ -827,32 +827,36 @@ with tab2:
         col1, col2 = st.columns([3, 2])
         
         with col1:
+            import streamlit as st
+
             st.markdown("""
             ### Entropy
             
             Entropy measures the impurity or disorder in a dataset. For a set S containing c different classes:
             
-            $$H(S) = -\sum_{i=1}^{c} p_i \log_2(p_i)$$
+            $$H(S) = -\\sum_{i=1}^{c} p_i \\log_2(p_i)$$
             
             Where:
             - $p_i$ is the proportion of examples belonging to class $i$
             
             **Properties of Entropy:**
-            - Ranges from 0 to $\log_2(c)$
+            - Ranges from 0 to $\\log_2(c)$
             - 0 means all examples belong to one class (pure set)
             - Higher values indicate more mixed classes
             
             ### Information Gain
             
             Information gain measures the reduction in entropy after splitting the data on a feature:
+            """)
             
             st.latex(r"""
             IG(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
             """)
             
+            st.markdown("""
             Where:
-            - $S$ is the dataset
-            - $A$ is the feature
+            - $S$ is the dataset  
+            - $A$ is the feature  
             - $S_v$ is the subset where feature $A$ has value $v$
             
             **The decision tree algorithm selects the feature with the highest information gain at each step.**
