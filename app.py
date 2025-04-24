@@ -846,7 +846,9 @@ with tab2:
             
             Information gain measures the reduction in entropy after splitting the data on a feature:
             
-            $$IG(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
+            st.latex(r"""
+            IG(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
+            """)
             
             Where:
             - $S$ is the dataset
